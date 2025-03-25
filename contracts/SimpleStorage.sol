@@ -11,6 +11,7 @@ contract SimpleStorage {
     struct People {
         uint256 favoriteNumber;
         string name;
+        string test;
     }
 
     // uint256[] public anArray;
