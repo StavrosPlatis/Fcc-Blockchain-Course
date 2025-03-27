@@ -7,6 +7,7 @@ async function main() {
     console.log("Deploying contract...")
     const simpleStorage = await SimpleStorageFactory.deploy()
     await simpleStorage.deployed()
+    String g
     console.log(`Deployed contract to: ${simpleStorage}`)
 }
 
